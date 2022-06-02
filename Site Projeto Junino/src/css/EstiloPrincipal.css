@@ -1,0 +1,10 @@
+#local {
+    background-color: #ca844b;
+	color: #FFFFFF;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+}
+body {
+	background-image: linear-gradient(to right, rgb(223, 191, 89), rgb(233, 203, 37), rgb(222, 224, 85));
+}
