@@ -1,4 +1,4 @@
 # Projeto-S-o-Jo-o
-Projeto Junino Senai
+###Projeto Junino Senai
 
-### Pojeto desenvolvido para ser apresentado no dia 11/06 no senai-sergipe
+ Projeto desenvolvido para ser apresentado no dia 11/06 no senai-sergipe
