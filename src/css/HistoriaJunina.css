@@ -1,0 +1,42 @@
+#titulo{
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    font-size: 1.8em;
+}
+#conteudopagina{
+    line-height: 15px;
+}
+#textp1{
+    font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+}
+#textp2{
+    font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+}
+.titos{
+    font-size: 1.3em;
+}
+.textorigem{
+    font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+    text-align: justify;
+}
+.textorigemdia{
+    font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+    text-align: justify;
+}
+.texthistoriajoao{
+    font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+    text-align: justify;
+}
+.curiosidade1{
+    font-family:Arial;
+    font-size: 0.9em;
+    text-align: justify;
+}
+#copy{
+    text-align: center;
+}
