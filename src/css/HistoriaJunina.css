@@ -1,3 +1,6 @@
+header{
+    background-color: azure;
+}
 #titulo{
     text-align: center;
     font-family: 'Comic Sans MS';
@@ -38,5 +41,6 @@
     text-align: justify;
 }
 #copy{
+    padding-top: 55px;
     text-align: center;
 }

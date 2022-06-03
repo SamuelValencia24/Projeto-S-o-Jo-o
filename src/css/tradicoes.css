@@ -1,0 +1,26 @@
+#titulo{
+    background-color: rgb(69, 216, 11);
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Comic Sans MS';
+
+}
+.titos{
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 20px;
+    font-family: 'Comic Sans MS';
+}
+.textparagrafo{
+    font-size: 1.1em;
+    line-height: 20px;
+    text-align: justify;
+    font-family: 'Comic Sans MS';
+}
+#copy{
+    padding-top: 55px;
+    text-align: center;
+}
+#fogueira{
+   text-align: center;
+}
