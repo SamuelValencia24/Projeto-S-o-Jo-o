@@ -8,14 +8,14 @@
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
-	background-image: linear-gradient(to right, rgb(226, 196, 96), rgb(207, 184, 53), rgb(199, 171, 49));
+	background-image: linear-gradient(to right, #f0553a, #e0c31e);
 }
 #Menu {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 20%;
-	font-size: 20px;
+	font-size: 27px;
 }
 * {
 	margin: 0;
@@ -36,7 +36,7 @@ html, body {
 	height: 60px; 
 }
 .site-footer {
-	background: #ebb70c;
+	background: #e9b730;
 	color: #FFF;
 	padding-top: 15px;
     text-align: center;
@@ -65,4 +65,21 @@ html, body {
 	margin-left: 30em;
 	margin-top: -19em;
 }
+a:link {
+	color:#FFF;
+	text-decoration:none;
+  }
+  a:visited {
+	color:#FFF;
+	text-decoration:none;
+  }
+  a:hover {
+	color:rgb(231, 200, 23);
+	text-decoration:underline;
+  }
+  a:active {
+	color:#00ff00;
+	text-decoration:underline;
+	background-color:#d49828;
+  }
 
