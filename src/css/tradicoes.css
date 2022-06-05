@@ -1,5 +1,8 @@
+body {
+	background-image: linear-gradient(to right, #f0553a, #e0c31e);
+}
 #titulo{
-    background-color: rgb(69, 216, 11);
+    background-color: #e9b730;
     text-align: center;
     font-size: 1.8em;
     font-family: 'Comic Sans MS';
@@ -18,9 +21,13 @@
     font-family: 'Comic Sans MS';
 }
 #copy{
-    padding-top: 55px;
+    padding-top: 40px;
     text-align: center;
+    background-color: #e9b730;
 }
 #fogueira{
    text-align: center;
+}
+#fogueira {
+    margin-left: 33em;
 }

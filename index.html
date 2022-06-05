@@ -5,21 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/estiloprincipal.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Projeto Junino</title>
 </head>
 <body>
 
     <header>
-        <div id="local" >
-            DIA 06/11 | DAS 07:00 ÀS 12:20 | LOCAL: SENAI-CETCC
+        <br>
+        <div id="Titulo" >
+            PROJETO SÃO JOÃO | SENAI 
         </div>
+        <br>
         <div id="navegacao">
             <nav id="Menu">
-               <a href="#">Sobre</a>
-               <a href="src/paginas/historia.html">História</a>
+               <a href="src/Paginas/tradicoes.html">Tradição</a> |
+               <a href="src/paginas/historia.html">História</a> |
             </nav>
         </div>
+        <br><br><br>
     </header>
-    <div id="copy"> © Copyright 2022 J & S informática </div>
-</body>
-</html>
+    <section>
+
+              <!--Carrossel Feito com o Framework Bootstrap--> 
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="src/imagens/São João03.webp" class="d-block w-100" alt="Imagem01">
+              </div>
+              <div class="carousel-item">
+                <img src="src/imagens/Imagem São João02.jpg" class="d-block w-100" alt="Imagem02">
+              </div>
+              <div class="carousel-item">
+                <img src="src/imagens/fogueira-são-joão04.jpg" class="d-block w-100" alt="Imagem03">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+           <!--Fim Do Carrossel do Bootstrap-->
+    </section>
+    <br><br><br>
+    <div class="container body-content">
+        <p class="paragrafo01">
+            O Dia de São João é uma das comemorações da Festa Junina. São João Batista, na tradição cristã, anunciou a “boa-nova” (boa notícia) da vinda do Cristo, filho de Deus, salvador da humanidade, que “renovaria todas as coisas”. Foi ele também que batizou Cristo no rio Jordão.
+        </p>
+        <br><br>
+        <p class="paragrafo02">Este site foi desenvolvido Com Intuito de representar o conhecimento técnico adquirido durante o curso de Desenvolvimento de Sistemas.</p>
+      </div>
+      <div class="GIF">
+        <img src="https://media.giphy.com/media/geALIfiLlUqnSYn0xf/giphy.gif" alt="Gif">
+      </div>
+      <br><br>
+      <div class="container03">
+        <p class="paragrafo03">Este Site foi desenvolvido pelos alunos: Samuel Silva Valencia & João Victor Batista da turma de EMIDES03 do Senai Sergipe.</p>
+      </div>
+      <footer class="site-footer">
+         © Copyright 2022 J & S informática 
+      </footer>
