@@ -1,12 +1,32 @@
 body {
 	background-image: linear-gradient(to right, #f0553a, #e0c31e);
 }
+#Menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 20%;
+	font-size: 1.3em;
+	justify-content: space-around;
+}
+#cabecalho{
+    background-color: #e9b730;
+}
 #titulo{
     background-color: #e9b730;
-    text-align: center;
     font-size: 1.8em;
     font-family: 'Comic Sans MS';
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
 
+}
+#textcuriosidade{
+    font-family:Arial;
+    font-size: 0.9em;
+    text-align: justify;
+    font-weight: bold;
 }
 .titos{
     text-align: center;
@@ -21,7 +41,8 @@ body {
     font-family: 'Comic Sans MS';
 }
 #copy{
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     background-color: #e9b730;
 }
@@ -31,3 +52,20 @@ body {
 #fogueira {
     margin-left: 33em;
 }
+a:link {
+	color:#FFF;
+	text-decoration:none;
+  }
+  a:visited {
+	color:#FFF;
+	text-decoration:none;
+  }
+  a:hover {
+	color:rgb(231, 200, 23);
+  }
+  a:active {
+	color:#202ead;
+	text-decoration:underline;
+	background-color:#d49828;
+  }
+

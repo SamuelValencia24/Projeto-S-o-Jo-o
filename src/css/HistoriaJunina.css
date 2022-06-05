@@ -1,6 +1,14 @@
 body {
 	background-image: linear-gradient(to right, #f0553a, #e0c31e);
 }
+#Menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 20%;
+	font-size: 1.3em;
+	justify-content: space-around;
+}
 header{
     background-color: #e9b730;
 }
@@ -8,6 +16,7 @@ header{
     text-align: center;
     font-family: 'Comic Sans MS';
     font-size: 1.8em;
+    padding-top: 25px;
 }
 #conteudopagina{
     line-height: 15px;
@@ -42,12 +51,30 @@ header{
     font-family:Arial;
     font-size: 0.9em;
     text-align: justify;
+    font-weight: bold;
 }
 #copy{
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     background-color: #e0c31e;
 }
 #imgsaojoao {
     margin-left: 33em;
 }
+a:link {
+	color:#FFF;
+	text-decoration:none;
+  }
+  a:visited {
+	color:#FFF;
+	text-decoration:none;
+  }
+  a:hover {
+	color:rgb(231, 200, 23);
+  }
+  a:active {
+	color:#202ead;
+	text-decoration:underline;
+	background-color:#d49828;
+  }

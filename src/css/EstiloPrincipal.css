@@ -1,11 +1,16 @@
 #Titulo {
 	background-color: #e9b730;
-	color: #FFFFFF;
+	color: #000000;
 	height: 80px;
 	text-align: center;
 	line-height: 80px;
 	font-size: 30px;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#imglogosenai{
+	margin-top: 1.0em;
+	text-align: center;
+	margin-left: 29em;
 }
 body {
 	background-image: linear-gradient(to right, #f0553a, #e0c31e);
@@ -15,8 +20,9 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	width: 20%;
-	font-size: 27px;
-}
+	font-size: 1.3em;
+	justify-content: space-around;
+}	
 * {
 	margin: 0;
 }
@@ -37,7 +43,7 @@ html, body {
 }
 .site-footer {
 	background: #e9b730;
-	color: #FFF;
+	color: rgb(0, 0, 0);
 	padding-top: 15px;
     text-align: center;
 }
@@ -63,7 +69,7 @@ html, body {
 }
 .GIF {
 	margin-left: 30em;
-	margin-top: -19em;
+	margin-top: -30em;
 }
 a:link {
 	color:#FFF;
@@ -75,7 +81,6 @@ a:link {
   }
   a:hover {
 	color:rgb(231, 200, 23);
-	text-decoration:underline;
   }
   a:active {
 	color:#00ff00;
