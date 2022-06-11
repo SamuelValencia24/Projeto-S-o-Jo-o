@@ -48,9 +48,8 @@ body {
 }
 #fogueira{
    text-align: center;
-}
-#fogueira {
-    margin-left: 33em;
+   margin-left: 33.5em;
+   margin-top: 0.2em;
 }
 a:link {
 	color:#FFF;
