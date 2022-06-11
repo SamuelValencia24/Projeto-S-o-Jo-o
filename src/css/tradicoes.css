@@ -36,12 +36,14 @@ body {
 }
 .textparagrafo{
     font-size: 1.1em;
-    line-height: 20px;
+    line-height: 25px;
     text-align: justify;
     font-family: 'Comic Sans MS';
+    padding-right: 5em;
+    padding-left: 5em;
 }
 #copy{
-    padding-top: 20px;
+    padding-top: 28px;
     padding-bottom: 20px;
     text-align: center;
     background-color: #e9b730;

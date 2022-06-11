@@ -24,43 +24,61 @@ header{
 #textp1{
     font-family: 'Comic Sans MS';
     font-size: 1.1em;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px;
 }
 #textp2{
     font-family: 'Comic Sans MS';
     font-size: 1.1em;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px;
 }
 .titos{
     font-size: 1.3em;
+    padding-left: 5em;
 }
 .textorigem{
     font-family: 'Comic Sans MS';
     font-size: 1.1em;
     text-align: justify;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px;
 }
 .textorigemdia{
     font-family: 'Comic Sans MS';
     font-size: 1.1em;
     text-align: justify;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px;
 }
 .texthistoriajoao{
     font-family: 'Comic Sans MS';
     font-size: 1.1em;
     text-align: justify;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px;
 }
 .curiosidade1{
     font-family:Arial;
     font-size: 0.9em;
     text-align: justify;
     font-weight: bold;
+    line-height: 15px;
 }
 #copy{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    line-height: 15px;
     background-color: #e0c31e;
 }
 #imgsaojoao {
-    margin-left: 33em;
+    margin-left: 35.5em;
 }
 a:link {
 	color:#FFF;
@@ -77,4 +95,7 @@ a:link {
 	color:#202ead;
 	text-decoration:underline;
 	background-color:#d49828;
+  }
+  #titosantojoao{
+    padding-left: 27.7em;
   }
