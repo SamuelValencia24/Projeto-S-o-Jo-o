@@ -1,13 +1,8 @@
 body {
 	background-image: linear-gradient(to right, #f0553a, #e0c31e);
-}
-#Menu {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 20%;
-	font-size: 1.3em;
-	justify-content: space-around;
+    margin: auto;
+    min-width: 320px;
+    max-width: 2560px;
 }
 header{
     background-color: #e9b730;
@@ -17,6 +12,14 @@ header{
     font-family: 'Comic Sans MS';
     font-size: 1.8em;
     padding-top: 25px;
+}
+#navegacao{
+    display: flex;
+    width: 100%;
+	font-size: 1.3em;
+}
+#menu{
+    justify-content: space-around;
 }
 #conteudopagina{
     line-height: 15px;
@@ -78,7 +81,8 @@ header{
     background-color: #e0c31e;
 }
 #imgsaojoao {
-    margin-left: 35.5em;
+   display: block;
+   margin: auto;
 }
 a:link {
 	color:#FFF;
@@ -97,5 +101,14 @@ a:link {
 	background-color:#d49828;
   }
   #titosantojoao{
-    padding-left: 27.7em;
+    text-align: center;
+    padding-right: 5em;
+  }
+
+  #linkhome{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #linkhistoria{
+    padding-right: 5px;
   }
