@@ -87,4 +87,17 @@ a:link {
 	text-decoration:underline;
 	background-color:#d49828;
   }
+  #linkhome{
+    padding-left: 90px;
+    padding-right: 10px;
+  }
+  #linkhistoria{
+	padding-left: 10px;
+    padding-right: 5px;
+  }
+  #linktradicao{
+	padding-left: 10px;
+	padding-right: 10px;
+  }
+
 
