@@ -7,21 +7,23 @@
 	font-size: 30px;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 #imglogosenai{
-	margin-top: 1.0em;
 	text-align: center;
-	margin-left: 29em;
+	margin: auto;
+	display: block;
+	padding-top: 3em;
 }
 body {
 	background-image: linear-gradient(to right, #f0553a, #e0c31e);
+	min-width: 336px;
+    max-width: 2560px;
+	margin: auto;
 }
 #Menu {
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
-	width: 20%;
 	font-size: 1.3em;
-	justify-content: space-around;
 }	
 * {
 	margin: 0;
@@ -38,7 +40,7 @@ html, body {
 	content: "";
 	display: block;
 }
-.site-footer, .page-wrap:after {
+.page-wrap:after {
 	height: 60px; 
 }
 .site-footer {
@@ -55,21 +57,19 @@ html, body {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 25px;
 	color: #FFF;
-}
-.paragrafo02 {
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 25px;
-	color: #FFF;
+	width: auto;
 }
 .paragrafo03 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 25px;
 	color: #FFF;
 	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
 }
-.GIF {
-	margin-left: 30em;
-	margin-top: -26em;
+#giffogueira{
+	display: block;
+	margin: auto;
 }
 a:link {
 	color:#FFF;
@@ -80,7 +80,7 @@ a:link {
 	text-decoration:none;
   }
   a:hover {
-	color:rgb(231, 200, 23);
+	color:rgb(25, 76, 185);
   }
   a:active {
 	color:#00ff00;
